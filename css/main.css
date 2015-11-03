@@ -58,10 +58,11 @@ h2 {
 }
 
 #tagline1 {
-	font-size: 2em;
+	font-size: 3em;
 	position: relative;
 	left: 20%;
 	line-height: 2%;
+	color: #F3EF7D;
 }
 
 #tagline2 {
@@ -72,11 +73,11 @@ h2 {
 }
 
 #tagline3 {
-	font-size: 2em;
+	font-size: 3em;
 	position: relative;
-	left: 60%;
+	left: 55%;
 	line-height: 2%;
-
+	color: #F3EF7D;
 }
 
 

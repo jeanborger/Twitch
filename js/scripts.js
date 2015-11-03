@@ -5,6 +5,7 @@
 $("#tagline1").hide();
 $("#tagline2").hide();
 $("#tagline3").hide();
+$("#main-image").hide();
 
 
 //Show tagline gradually after logo text is typed
@@ -18,4 +19,8 @@ setTimeout(function(){
 
 setTimeout(function(){
   $("#tagline3").show();
+}, 6000);
+
+setTimeout(function(){
+  $("#main-image").show();
 }, 7000);
