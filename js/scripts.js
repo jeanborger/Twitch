@@ -1,14 +1,16 @@
-//Goal: Hide, then show tagline
+//Goal: Hide, then show tagline, image, and nav
 //Solution: JQ to grab element, hide it, then show it once typewriter runs
 
-//Hide tagline
+//Hide tagline, main image, and nav
 $("#tagline1").hide();
 $("#tagline2").hide();
 $("#tagline3").hide();
 $("#main-image").hide();
+$("#nav1").hide();
+$("#nav2").hide();
+$("#nav3").hide();
 
-
-//Show tagline gradually after logo text is typed
+//Show tagline, photo, and nav gradually after logo text is typed
 setTimeout(function(){
   $("#tagline1").show();
 }, 5000);
@@ -24,3 +26,23 @@ setTimeout(function(){
 setTimeout(function(){
   $("#main-image").show();
 }, 7000);
+
+setTimeout(function(){
+  $("#nav1").show();
+}, 10000);
+
+setTimeout(function(){
+  $("#nav2").show();
+}, 9000);
+
+setTimeout(function(){
+  $("#nav3").show();
+}, 8000);
+
+
+//Goal: Ask for input from user; format and write input to page (possibly using typewriter)
+
+var twitchInput = document.getElementById("twitch-text"); //twitch-text
+var addButton = document.getElementsByTagName("button")[0]; //first button
+
+ 
