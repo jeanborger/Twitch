@@ -158,6 +158,9 @@ PAGE: ABOUT
   border-radius: 20px;
 }
 
+/**************************************
+PAGE: TWITCH
+**************************************/
 
 	
 /**************************************
@@ -207,7 +210,6 @@ body {
 /* black header*/
 header {
   background: #111;
-/*  border-color: #6599ff;*/
 }
 
 /* nav background on mobile */
