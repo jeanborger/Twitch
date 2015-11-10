@@ -4,6 +4,7 @@
 
 //Ask for image selection and store it in a variable
 //Set image as background to an HTML element (div with id "display-input")
+//Could I replace 6 images with selected image?  Then make input box disappear?
 
 var imageInput; //image selected by user
 var imageToDisplay; //image to display to page
