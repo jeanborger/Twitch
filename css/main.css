@@ -1,9 +1,12 @@
-/**************************************
-GENERAL
-**************************************/
+/*Base Styles----------------------*/
+
+*{
+	box-sizing: border-box;
+}
 
 body {
   font-family: 'Open Sans', sans-serif;
+	font: 1em/1.5;
 }
 
 #wrapper {
@@ -26,14 +29,12 @@ h3 {
 
 
 
-/**************************************
-HEADING
-**************************************/
+/*Heading Block--------------------*/
 
 header {
   float: left;
-  margin: 0 0 0px 0;
-  padding: 5px 0 0 0;
+  margin: 0 0 30 0;
+  padding: 5px 0;
   width: 100%;
 }
 
@@ -70,8 +71,6 @@ h2 {
 	left: 55%;
 	line-height: 2%;
 }
-
-
 
 
 /**************************************

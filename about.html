@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>Twitching in the Eye of a Star | Photography</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link href='http://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans:400italic,600italic,700italic,400,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans:400italic,600italic,700italic,400,600,700,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,12 +13,11 @@
   <body>
     <header>
       <a href="index.html" id="logo">
-        <h1>Twitching in the Eye of a Star</h1>
-        <h2>instant ART</h2>
+        <h1><span class="typewriter"> xxxAboutxxx</span></h1>
       </a>
       <nav>
         <ul>
-          <li><a href="index.html"></a></li>
+          <li><a href="index.html">home</a></li>
           <li><a href="about.html" class="selected">about</a></li>
 					<li><a href="twitch.html">twitch</a></li>
           <li><a href="contact.html">contact</a></li>
@@ -37,5 +37,18 @@
         <p>&copy; 2015 Jean Borger</p>
       </footer>
     </div>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="js/typewriter.js"></script>
+		<script src="js/app.js"></script>
+		
+		<script>
+			$(function() {
+				$(".typewriter").typewriter({
+					'speed':125 // default: 300
+						});
+			});
+		</script>
+		
   </body>
 </html>
