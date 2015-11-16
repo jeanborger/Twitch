@@ -10,6 +10,7 @@ $().ready(function () {
 	$("img").click(function () {
 		var imgName = $(this).attr("src");
 		$("#gallery").css("display","none");
+		$("#first-instruction").css("display","none");
 		var img = document.createElement("img");
 		img.style.width = "100%";
 		img.style.height = "auto";

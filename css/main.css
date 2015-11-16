@@ -1,4 +1,4 @@
-/*Base Styles----------------------*/
+/*Basic Page Styles-----------------------*/
 
 *{
 	box-sizing: border-box;
@@ -24,12 +24,10 @@ img {
 }
 
 h3 {
-padding: 1em 0 0 0;
 }
 
 
-
-/*Heading Block--------------------*/
+/*Header----------------------------------*/
 
 header {
   float: left;
@@ -46,7 +44,7 @@ header {
 h1 {
   font-family: 'Special Elite';
   margin: 15px 0;
-  font-size: 1.75em;
+  font-size: 3em;
   font-weight: normal;
   line-height: 0.8em;
 }
@@ -62,7 +60,7 @@ h2 {
 	font-size: 3em;
 	position: relative;
 	left: 20%;
-	line-height: 2%;
+	line-height: %;
 }
 
 #tagline2 {
@@ -77,14 +75,11 @@ h2 {
 }
 
 
-/**************************************
-NAVIGATION
-**************************************/
+/*Navigation------------------------------*/
 
 nav {
   text-align: center;
   padding: 10px 0;
-  margin: 20px 0 0;
 }
 
 nav ul {
@@ -101,7 +96,6 @@ nav a {
   font-weight: 800;
   padding: 15px 10px;
 }
-
 
 
 /**************************************
@@ -121,6 +115,7 @@ footer {
   width: 20px;
   margin: 0 5px;
 }
+
 
 /**************************************
 PAGE: PORTFOLIO
@@ -227,12 +222,12 @@ color: #fff;
 } 
 
 h2 {
-  color: #f3ef7d;
+  color: #fffed5;
 }
 
 /* links */
 a {
-  color: #ccc;
+  color: #cda361;
 }
 
 /* nav links */
@@ -241,8 +236,8 @@ nav a, nav a:visited {
 }
 
 /* selected nav link*/
-nav a.selected, nav a:hover {
-  color: #f3ef7d;
+nav a.selected, nav a:hover, nav a:focus {
+  color: #ffcd9b;
 }
 
 
