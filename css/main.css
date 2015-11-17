@@ -44,7 +44,7 @@ header {
 h1 {
   font-family: 'Special Elite';
   margin: 15px 0;
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: normal;
   line-height: 0.8em;
 }
@@ -56,19 +56,6 @@ h2 {
   font-weight: bolder;
 }
 
-#tagline1 {
-	font-size: 3em;
-	position: relative;
-	left: 20%;
-	line-height: %;
-}
-
-#tagline2 {
-	font-size: 3em;
-	position: relative;
-	left: 55%;
-	line-height: 2%;
-}
 
 #twitch-text {
 	color: #111;
@@ -211,9 +198,11 @@ header {
 }
 
 /* nav background on mobile */
+/*
 nav {
   background: #599a68;
 }
+*/
 
 /* logo text */
 
@@ -240,6 +229,100 @@ nav a.selected, nav a:hover, nav a:focus {
   color: #ffcd9b;
 }
 
+
+@media screen and (min-width: 480px) {
+  
+
+  /**************************************
+  TWO-COLUMN LAYOUT
+  **************************************/
+  
+  #primary {
+    width: 50%;
+    float: left;
+  }
+  
+   #secondary {
+    width: 40%;
+    float: right;
+  }
+  
+  
+  
+  /**************************************
+  PAGE: PORTFOLIO
+  **************************************/
+  
+  #gallery li {
+    width: 28.3333%;
+  }
+  
+  #gallery li:nth-child(4n) {
+    clear: left;
+  }
+  
+  /**************************************
+  PAGE: ABOUT
+  **************************************/
+  
+  .profile-photo {
+    float: left;
+    margin: 0 5% 80px 0;
+  }
+  
+}
+
+@media screen and (min-width: 660px) {
+   
+  /**************************************
+  HEADER
+  **************************************/
+  
+  nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+  
+  #logo {
+    float: left;
+    margin-left: 10%;
+    text-align: left;
+    width: 45%;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  h2 {
+    font-size: 1.45em;
+    margin-bottom: 20px;
+  }
+	
+	#tagline1 {
+	font-size: 3em;
+	position: relative;
+	left: 20%;
+	line-height: %;
+}
+
+#tagline2 {
+	font-size: 3em;
+	position: relative;
+	left: 55%;
+	line-height: 2%;
+}
+  
+  header {
+/*    border-bottom: 5px solid #599a68;*/
+/*    margin-bottom: 60px;*/
+  }
+  
+}
 
 
 
