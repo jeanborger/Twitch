@@ -12,7 +12,7 @@ body {
 #wrapper {
   margin: 0 auto;
   padding: 0 5%;
-  max-width: 940px;
+  max-width: 980px;
 }
 
 a {
@@ -24,6 +24,8 @@ img {
 }
 
 h3 {
+	font-size: 1.5em;
+	margin: 0;
 }
 
 
@@ -31,7 +33,7 @@ h3 {
 
 header {
   float: left;
-  margin: 0 0 30 0;
+/*  margin: 0 0 30 0;*/
   padding: 5px 0;
   width: 100%;
 }
@@ -56,6 +58,14 @@ h2 {
   font-weight: bolder;
 }
 
+/*
+#tagline1 {
+	font-size: 1.75em;
+	position: relative;
+	left: 20%;
+	line-height: %;
+}
+*/
 
 #twitch-text {
 	color: #111;
@@ -147,7 +157,10 @@ PAGE: ABOUT
 PAGE: TWITCH
 **************************************/
 
-	
+#input-display {
+	color: black;
+}	
+
 /**************************************
 PAGE: CONTACT
 **************************************/
@@ -232,18 +245,17 @@ nav a.selected, nav a:hover, nav a:focus {
 
 @media screen and (min-width: 480px) {
   
-
   /**************************************
   TWO-COLUMN LAYOUT
   **************************************/
   
   #primary {
-    width: 50%;
+    width: 45%;
     float: left;
   }
   
    #secondary {
-    width: 40%;
+    width: 45%;
     float: right;
   }
   
@@ -291,7 +303,7 @@ nav a.selected, nav a:hover, nav a:focus {
     float: left;
     margin-left: 10%;
     text-align: left;
-    width: 45%;
+    width: 55%;
   }
   
   h1 {
@@ -310,18 +322,18 @@ nav a.selected, nav a:hover, nav a:focus {
 	line-height: %;
 }
 
-#tagline2 {
-	font-size: 3em;
-	position: relative;
-	left: 55%;
-	line-height: 2%;
-}
-  
   header {
-/*    border-bottom: 5px solid #599a68;*/
-/*    margin-bottom: 60px;*/
-  }
+    margin-bottom: 30px;
+ }
+	
+	#home-header {
+		margin: 0;
+	}
   
+	#subpage-heading {
+		margin: .5em auto;
+  	padding: 0 12%;
+	}  
 }
 
 
