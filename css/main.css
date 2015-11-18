@@ -159,6 +159,8 @@ PAGE: TWITCH
 
 #input-display {
 	color: black;
+	text-align: center;
+	
 }	
 
 /**************************************
@@ -336,10 +338,12 @@ nav a.selected, nav a:hover, nav a:focus {
 	}  
 }
 
+/*
 #picturebox {
 	display: block;
 	height: 500px;
 }
+*/
 
 
 

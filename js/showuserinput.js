@@ -24,7 +24,7 @@
 	//		$('#picturebox').css('background-image', 'url(' + imgName + ')');
 	//		$('myOjbect').css('background-image', 'url(' + imageUrl + ')');
 	//		$("#picturebox").css("width","100%");
-	//		$("#picturebox").css("height", "auto");
+	//		$("#picturebox").css("height", "auto"); 
 
 		});	
 	});
@@ -45,6 +45,8 @@
 		console.log(twitchToDisplay);
 		twitchInput.value = "";
 		document.getElementById("input-display").innerHTML = twitchToDisplay;
+		$(".instructions").hide();
+//		document.getElementById("overlay").innerHTML = twitchToDisplay;
 
 	//	$("#picturebox").append(twitchToDisplay);  
 	};

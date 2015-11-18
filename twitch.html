@@ -13,14 +13,14 @@
   <body>
 		<header>
 			<h1 id="subpage-heading"><span class="typewriter"> xxxTwitchxxx</span></h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">home</a></li>
-        <li><a href="about.html">about</a></li>
-			  <li><a href="twitch.html" class="selected">twitch</a></li>
-        <li><a href="contact.html">contact</a></li>
-      </ul>
-    </nav>
+			<nav>
+				<ul>
+					<li><a href="index.html">home</a></li>
+					<li><a href="about.html">about</a></li>
+					<li><a href="twitch.html" class="selected">twitch</a></li>
+					<li><a href="contact.html">contact</a></li>
+				</ul>
+			</nav>
 		</header>
 		
 		<div id="wrapper">
@@ -28,12 +28,13 @@
 				<h3>Step One: Select Image</h3>
 				<p id="first-instruction">Click to select one of the images below.</p>
 			</section>
+			
+			<div id="picturebox">
+			</div>
 			<div id="display-box">
-					<h1 id="input-display"></h1>
-				</div>
-				<div id="picturebox">
-				</div>
-				<ul id="gallery">
+				<h1 id="input-display"></h1>
+			</div>
+			<ul id="gallery">
           <li>
           	<img src="img/P1090721.JPG" alt="" id="image1">
           </li>
@@ -52,24 +53,21 @@
           <li>
           	<img src="img/Through March 2008 228.JPG" alt="" id="image6">
           </li>
-        </ul>
+       </ul>
 			
 			<section class="instructions">
 				<h3>Step Two: Twitch</h3>
 				<p>Write your twitch. What's a twitch? <a href="http://127.0.0.1:64312/about.html">Click here to learn more.</a></p>
-			</section>	
+				<h1 id="overlay"></h1>
+			
 			
 		<div class="container">
       <p>
         <input id="twitch-input" type="text"><button id="add-button">Twitch</button>
       </p>
     </div>
-		
-		<div id="display-input">
-			
-		
-		</div>
-		
+		</section>	
+				
     <footer>
       <a href="http://twitter.com/jeanborger"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
       <a href="http://www.facebook.com/jean.borger.1"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
