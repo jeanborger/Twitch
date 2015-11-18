@@ -9,6 +9,7 @@
 var imgName;
 
 $().ready(function () {
+	$("#picturebox").hide();
 	$("img").click(function () {
 		imgName = $(this).attr("src");
 		$("#gallery").css("display","none");
@@ -17,7 +18,14 @@ $().ready(function () {
 		img.style.width = "100%";
 		img.style.height = "auto";
 		img.setAttribute("src", imgName);
-		$("#picturebox").append(img);  
+		$("#picturebox").append(img);
+		$("#picturebox").show();
+
+//		$('#picturebox').css('background-image', 'url(' + imgName + ')');
+//		$('myOjbect').css('background-image', 'url(' + imageUrl + ')');
+//		$("#picturebox").css("width","100%");
+//		$("#picturebox").css("height", "auto");
+	
 	});	
 });
 
