@@ -72,8 +72,11 @@ h2 {
 }
 
 #subpage-heading {
+	text-align: center;
+/*
 	margin: .5em auto;
   padding: 0 12%;
+*/
 }  
 
 
