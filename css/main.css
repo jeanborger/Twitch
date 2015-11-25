@@ -71,6 +71,11 @@ h2 {
 	color: #111;
 }
 
+#subpage-heading {
+	margin: .5em auto;
+  padding: 0 12%;
+}  
+
 
 /*Navigation------------------------------*/
 
@@ -247,7 +252,16 @@ nav a.selected, nav a:hover, nav a:focus {
 
 @media screen and (min-width: 480px) {
   
-  /**************************************
+ /**************************************
+  HEADER
+  **************************************/
+	
+	#subpage-heading {
+		margin: .5em auto;
+  	padding: 0 12%;
+	}  
+	
+	/**************************************
   TWO-COLUMN LAYOUT
   **************************************/
   
@@ -260,8 +274,6 @@ nav a.selected, nav a:hover, nav a:focus {
     width: 45%;
     float: right;
   }
-  
-  
   
   /**************************************
   PAGE: PORTFOLIO
